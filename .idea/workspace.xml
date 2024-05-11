@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="First Step">
-      <change afterPath="$PROJECT_DIR$/src/BoardGame/Position.java" afterDir="false" />
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Position Class Added">
+      <change afterPath="$PROJECT_DIR$/src/BoardGame/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoardGame/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715451530018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Position Class Added">
+      <option name="closed" value="true" />
+      <created>1715451908018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715451908018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Step" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Step" />
+    <MESSAGE value="Position Class Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Position Class Added" />
   </component>
 </project>
