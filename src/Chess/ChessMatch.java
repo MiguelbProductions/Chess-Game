@@ -27,7 +27,7 @@ public class ChessMatch {
 
     private void innitialSetup() {
         board.PlacePiece(new Rook(board, Color.white), new Position(2, 1));
-        board.PlacePiece(new King(board, Color.black), new Position(3, 2));
+        board.PlacePiece(new King(board, Color.black), new Position(4, 2));
         board.PlacePiece(new Rook(board, Color.white), new Position(5, 4));
 
     }

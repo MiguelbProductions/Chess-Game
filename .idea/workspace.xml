@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Chess layer and printing board">
-      <change afterPath="$PROJECT_DIR$/src/Chess/Pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chess/Pieces/Rook.java" afterDir="false" />
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Placing Pieces on the board">
+      <change afterPath="$PROJECT_DIR$/src/BoardGame/BoardException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BoardGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
@@ -28,10 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MiguelbProductions"
-  }
+  "lastFilter": {}
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
@@ -125,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715453801336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Placing Pieces on the board">
+      <option name="closed" value="true" />
+      <created>1715454506786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715454506786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +137,7 @@
     <MESSAGE value="Position Class Added" />
     <MESSAGE value="Board and Piece Added" />
     <MESSAGE value="Chess layer and printing board" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chess layer and printing board" />
+    <MESSAGE value="Placing Pieces on the board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Placing Pieces on the board" />
   </component>
 </project>
