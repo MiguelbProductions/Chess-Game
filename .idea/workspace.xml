@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Position Class Added">
-      <change afterPath="$PROJECT_DIR$/src/BoardGame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoardGame/Piece.java" afterDir="false" />
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Board and Piece Added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chess/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,9 +57,14 @@
   "keyToString": {
     "Application.Program.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/louca/OneDrive/Documentos/Programming/Java/Chess Game/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/louca/OneDrive/Documentos/Programming/Java/Chess Game/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,12 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715451908018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Board and Piece Added">
+      <option name="closed" value="true" />
+      <created>1715452441502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715452441502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Step" />
     <MESSAGE value="Position Class Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Position Class Added" />
+    <MESSAGE value="Board and Piece Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Board and Piece Added" />
   </component>
 </project>
