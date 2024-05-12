@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="ChessException and ChessPosition">
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="&#10;Little improvement in board printing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715456502291</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&#10;Little improvement in board printing">
+      <option name="closed" value="true" />
+      <created>1715457093285</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715457093285</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +177,7 @@
     <MESSAGE value="Placing Pieces on the board" />
     <MESSAGE value="BoardExeception and defensive Programming" />
     <MESSAGE value="ChessException and ChessPosition" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChessException and ChessPosition" />
+    <MESSAGE value="&#10;Little improvement in board printing" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Little improvement in board printing" />
   </component>
 </project>

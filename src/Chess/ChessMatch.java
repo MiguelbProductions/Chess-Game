@@ -1,8 +1,12 @@
 package Chess;
 
 import BoardGame.Board;
+import BoardGame.Piece;
+import BoardGame.Position;
 import Chess.Pieces.King;
 import Chess.Pieces.Rook;
+
+import javax.xml.transform.Source;
 
 public class ChessMatch {
     private Board board;
@@ -42,5 +46,29 @@ public class ChessMatch {
         placeNewPiece('e', 7, new Rook(board, Color.black));
         placeNewPiece('e', 8, new Rook(board, Color.black));
         placeNewPiece('d', 8, new King(board, Color.black));
+    }
+
+    public ChessPiece PerfomChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
+        Position source = sourcePosition.toPosition();
+        Position target = targetPosition.toPosition();
+
+        ValidateSourcePosition(source);
+        Piece capturedPiece = makeMove(source, target);
+        return (ChessPiece) capturedPiece;
+    }
+
+    private void ValidateSourcePosition(Position position) {
+        if (!board.therIsAPiece(position)) {
+            throw  new ChessException("There is no piece on source position") ;
+        }
+    }
+
+    private Piece makeMove(Position source, Position target) {
+        Piece p = board.RemovePiece(source);
+        Piece capturedPiece = board.RemovePiece(target);
+
+        board.PlacePiece(p, target);
+
+        return capturedPiece;
     }
 }
