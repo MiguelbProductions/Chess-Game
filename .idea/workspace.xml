@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="&#10;Little improvement in board printing">
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Moving Pieces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoardGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +54,8 @@
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/louca/OneDrive/Documentos/Programming/Java/Chess Game/src/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
@@ -155,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715457093285</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Moving Pieces">
+      <option name="closed" value="true" />
+      <created>1715512933598</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715512933598</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +183,7 @@
     <MESSAGE value="BoardExeception and defensive Programming" />
     <MESSAGE value="ChessException and ChessPosition" />
     <MESSAGE value="&#10;Little improvement in board printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Little improvement in board printing" />
+    <MESSAGE value="Moving Pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving Pieces" />
   </component>
 </project>
