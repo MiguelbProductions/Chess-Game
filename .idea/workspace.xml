@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Moving Pieces">
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Handling exeptions and clearing screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardGame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715512933598</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Handling exeptions and clearing screen">
+      <option name="closed" value="true" />
+      <created>1715513705278</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715513705278</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +191,7 @@
     <MESSAGE value="ChessException and ChessPosition" />
     <MESSAGE value="&#10;Little improvement in board printing" />
     <MESSAGE value="Moving Pieces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving Pieces" />
+    <MESSAGE value="Handling exeptions and clearing screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling exeptions and clearing screen" />
   </component>
 </project>
