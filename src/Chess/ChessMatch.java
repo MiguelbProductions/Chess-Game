@@ -10,10 +10,20 @@ import javax.xml.transform.Source;
 
 public class ChessMatch {
     private Board board;
+    private int turn = 1;
+    private Color CurrentPlayer = Color.white;
 
     public ChessMatch() {
         board = new Board(8, 8);
         innitialSetup();
+    }
+
+    public int getTurn() {
+        return turn;
+    }
+
+    public Color getCurrentPlayer() {
+        return CurrentPlayer;
     }
 
     public ChessPiece[][] getPieces() {
@@ -61,6 +71,9 @@ public class ChessMatch {
         ValidateSourcePosition(source);
         ValidateTargetPosition(source, target);
         Piece capturedPiece = makeMove(source, target);
+
+        NextTurn();
+
         return (ChessPiece) capturedPiece;
     }
 
@@ -68,6 +81,10 @@ public class ChessMatch {
         if (!board.therIsAPiece(position)) {
             throw new ChessException("There is no piece on source position") ;
         }
+        if (CurrentPlayer !=  ((ChessPiece)board.piece(position)).getColor()) {
+            throw  new ChessException("The chosen piece in not yours");
+        }
+
         if (!board.piece((position)).isThereAnyPossibleMove()) {
             throw new ChessException(("There is no possible moves for chosen piece."));
         }
@@ -86,5 +103,10 @@ public class ChessMatch {
         board.PlacePiece(p, target);
 
         return capturedPiece;
+    }
+
+    private void NextTurn() {
+        turn++;
+        CurrentPlayer = (CurrentPlayer == Color.white) ? Color.black : Color.white;
     }
 }

@@ -1,5 +1,6 @@
 package Application;
 
+import Chess.ChessMatch;
 import Chess.ChessPiece;
 import Chess.ChessPosition;
 import Chess.Color;
@@ -43,6 +44,13 @@ public class UI {
         }
     }
 
+    public static void printMach(ChessMatch chessMatch) {
+        printBoard(chessMatch.getPieces());
+        System.out.println();
+        System.out.println("Turn: " + chessMatch.getTurn());
+        System.out.println("Wainting player: " + chessMatch.getCurrentPlayer());
+    }
+
     public static void printBoard(ChessPiece[][] pieces) {
         for (int i = 0; i < pieces.length; i++) {
             System.out.print((8 - i) + " ");
@@ -64,7 +72,6 @@ public class UI {
         System.out.println("  a b c d e f g h");
     }
 
-
     private static void printPiece(ChessPiece piece, boolean background) {
         if (background) {
             System.out.print(ANSI_BLACK_BACKGROUND);
@@ -83,4 +90,6 @@ public class UI {
         }
         System.out.print(" ");
     }
+
+
 }
