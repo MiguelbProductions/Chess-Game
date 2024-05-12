@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Check Logic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="CheckMate Logic">
       <change beforePath="$PROJECT_DIR$/src/Chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715521497187</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="CheckMate Logic">
+      <option name="closed" value="true" />
+      <created>1715523886113</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715523886113</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +262,8 @@
     <MESSAGE value="Switching player each turn" />
     <MESSAGE value="Handling captured pieces" />
     <MESSAGE value="Check Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check Logic" />
+    <MESSAGE value="CheckMate Logic" />
+    <MESSAGE value="Piece Move count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Piece Move count" />
   </component>
 </project>
