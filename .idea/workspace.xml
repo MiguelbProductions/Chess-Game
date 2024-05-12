@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="CheckMate Logic">
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Piece move count">
+      <change afterPath="$PROJECT_DIR$/src/Chess/Pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715523886113</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Piece move count">
+      <option name="closed" value="true" />
+      <created>1715524138778</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715524138778</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +275,7 @@
     <MESSAGE value="Check Logic" />
     <MESSAGE value="CheckMate Logic" />
     <MESSAGE value="Piece Move count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Piece Move count" />
+    <MESSAGE value="Piece move count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Piece move count" />
   </component>
 </project>

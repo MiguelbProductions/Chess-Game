@@ -25,8 +25,8 @@ public abstract class ChessPiece extends Piece {
         MoveCount--;
     }
 
-    public void getMoveCount() {
-        MoveCount--;
+    public int getMoveCount() {
+        return MoveCount;
     }
 
     protected boolean IsOpponentPiece(Position position) {
