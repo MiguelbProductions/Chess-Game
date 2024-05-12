@@ -7,14 +7,21 @@ import Chess.Pieces.King;
 import Chess.Pieces.Rook;
 
 import javax.xml.transform.Source;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ChessMatch {
     private Board board;
-    private int turn = 1;
-    private Color CurrentPlayer = Color.white;
+    private int turn;
+    private Color CurrentPlayer;
+
+    private List<Piece> piecesOnTheBoard = new ArrayList<>();
+    private List<Piece> Capturedpieces = new ArrayList<>();
 
     public ChessMatch() {
         board = new Board(8, 8);
+        turn = 1;
+        CurrentPlayer = Color.white;
         innitialSetup();
     }
 
@@ -40,6 +47,7 @@ public class ChessMatch {
 
     private void placeNewPiece(char column, int row, ChessPiece piece) {
         board.PlacePiece(piece, new ChessPosition(column, row).toPosition());
+        piecesOnTheBoard.add(piece);
     }
 
     private void innitialSetup() {
@@ -101,6 +109,11 @@ public class ChessMatch {
         Piece capturedPiece = board.RemovePiece(target);
 
         board.PlacePiece(p, target);
+
+        if (capturedPiece != null) {
+            piecesOnTheBoard.remove(capturedPiece);
+            Capturedpieces.add(capturedPiece);
+        }
 
         return capturedPiece;
     }
