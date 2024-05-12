@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Handling exeptions and clearing screen">
+    <list default="true" id="0993b686-774a-442e-b7e5-4c70a78cda64" name="Changes" comment="Possible Moves of Piece">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoardGame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardGame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoardGame/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess/Pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess/Pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715513705278</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Possible Moves of Piece">
+      <option name="closed" value="true" />
+      <created>1715514401762</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715514401762</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +203,7 @@
     <MESSAGE value="&#10;Little improvement in board printing" />
     <MESSAGE value="Moving Pieces" />
     <MESSAGE value="Handling exeptions and clearing screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling exeptions and clearing screen" />
+    <MESSAGE value="Possible Moves of Piece" />
+    <option name="LAST_COMMIT_MESSAGE" value="Possible Moves of Piece" />
   </component>
 </project>
